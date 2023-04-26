@@ -18,9 +18,13 @@ de contedino que vamos a desplegar en el navegador -->
     <body>
         <h1>Hola mundo JSPs</h1>
         <ul>
-            <li> <% out.print("Hola mundo con Scriplets"); %> </li>
-            <li> ${"Hola mundo con Expresion Language (EL)"} </li>
+            <!--los scriplets permiten uso de java-->
+            <li> <% out.print("Hola mundo con Scriplets"); %> </li> 
+            <!--Uso de expression language para mostrar texto en pantalla-->
+            <li> ${"Hola mundo con Expression Language (EL)"} </li> 
+            <!--el uso de Funciona como un out.println()--> 
             <li> <%= "Hola Mundo con Expresiones" %> </li>
+            
             <li> <c:out value="Hola mundo con JSTL"/> </li>
         </ul>
 
