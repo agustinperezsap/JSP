@@ -8,6 +8,6 @@
         <h1>Ejemplo de Expression Lenguage</h1>
         <br/>
         <a href="variablesImplicitas.jsp?usuario=juan">Objetos implicitos con EL</a>
-
+        
     </body>
 </html>
